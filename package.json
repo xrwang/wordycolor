@@ -1,0 +1,23 @@
+{
+  "name": "wordycolor",
+  "version": "1.0.0",
+  "description": "random colors from a word list",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xrwang/wordycolor.git"
+  },
+  "author": "xrwang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xrwang/wordycolor/issues"
+  },
+  "homepage": "https://github.com/xrwang/wordycolor#readme",
+  "dependencies": {
+    "bases": "^0.2.1",
+    "random-int": "^1.0.0"
+  }
+}

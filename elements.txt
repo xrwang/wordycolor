@@ -1,0 +1,32 @@
+7,7,8,8-tetracyanoquinodimethane
+copper
+lead
+gold
+aluminum (bauxite)
+magnesium
+silicon
+zinc
+cobalt
+nickel
+iron
+carbon fiber
+steel
+ruthenium
+neodymium
+gallium
+lutetium
+tantalum
+rutherforium
+hafnium
+zirconium
+mercury
+indium tin oxide
+silicon dioxide
+arsenic
+phosphorous
+chromium
+boron
+platinum
+Palladium
+silver
+water
