@@ -7,8 +7,8 @@ const bases = require('bases');
 
 const computerElementsList = fs.readFileSync(__dirname + '/elements.txt').toString().split('\n');
 //pick random element
-const randomEnum = randomInt(1, computerElementsList.length);
-const randomElement = computerElementsList[randomEnum];
+const randomEnum = randomInt(0, computerElementsList.length);
+const randomElement = computerElementsList[0];
 
 
 const elementToNumber = bases.fromAlphabet(randomElement, '0123456789abcdefghijklmnopqrstuvwxyz');
