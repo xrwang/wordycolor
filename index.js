@@ -14,7 +14,10 @@ const randomElement = computerElementsList[0];
 const elementToNumber = bases.fromAlphabet(randomElement, '0123456789abcdefghijklmnopqrstuvwxyz');
 
 if (elementToNumber.toString().length >= 6) {
-  let color = elementToNumber.toString().substring(0,6)
-  console.log(color + ' ' + randomElement )
-  return color
+  let getRidOfDecimals = /[^\.e+]/g;
+  let color = elementToNumber.toString().match(getRidOfDecimals);
+
+  let colorHex = color.join('').substring(0,6)
+  console.log(colorHex + ' ' + randomElement )
+  return colorHex
 }
