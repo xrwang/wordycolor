@@ -9,6 +9,7 @@ const computerElementsList = fs.readFileSync(__dirname + '/elements.txt').toStri
 //pick random element
 const randomEnum = randomInt(0, computerElementsList.length);
 const randomElement = computerElementsList[randomEnum];
+console.log(randomElement)
 
 
 const elementToNumber = bases.fromAlphabet(randomElement, '0123456789abcdefghijklmnopqrstuvwxyz');
